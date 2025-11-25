@@ -207,7 +207,10 @@
 }
 
 .btnUbicacion {
+  position: relative;
   background: var(--bg-botones);
+
+  z-index: 100000000000000 !important;
 
   padding: 10px 20px;
   border: none;
