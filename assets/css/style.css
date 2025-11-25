@@ -28,7 +28,8 @@
   font-family: "Playfair Display", serif;
   letter-spacing: 3px;
   font-size: clamp(40px, 4vw, 50px);
-  color: var(--text-primary);
+  color: #f252aa;
+  text-shadow: 2px 2px 2px rgba(49, 49, 49, 0.8);
 }
 
 .fecha {
@@ -36,8 +37,9 @@
   font-size: clamp(35px, 3vw, 40px);
   letter-spacing: 5px;
   margin-top: -11px;
-  color: var(--text-secondary);
-  text-shadow: 1px 1px 5px rgba(131, 131, 131, 0.8);
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px rgb(44, 44, 44);
 }
 
 .container-info {
@@ -94,7 +96,7 @@
 .contador td {
   border: 3px solid var(--bg-contador);
   border-bottom: none;
-  background-color: #ffffff;
+  background-color: var(--bg-contador);
   width: calc(100% / 4);
   color: #000000;
   padding: 5px;
@@ -105,7 +107,7 @@
 .contador th {
   border: 3px solid var(--bg-contador);
   border-top: none;
-  background-color: #ffffff;
+  background-color: var(--bg-contador);
   color: #000000;
   text-align: center;
   justify-content: center;
@@ -225,6 +227,7 @@
   color: var(--text-secondary);
   padding: 30px;
   text-align: center;
+  margin-top: -120px;
 }
 
 .dresscode h3 {
@@ -265,7 +268,7 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: -100px;
   margin-bottom: 30px;
 
   border-bottom-left-radius: 150px;
@@ -325,7 +328,7 @@
 }
 
 .confirmar .btnConfirmar {
-  background: var(--text-secondary);
+  background: #f2c53d;
   padding: 8px 20px;
   border: none;
   cursor: pointer;
@@ -343,7 +346,7 @@
         FOOTER
 --------------------------*/
 footer {
-  background-color: var(--bg-container);
+  background-color: var(--bg-footer);
   color: white;
   padding: 1rem;
   text-align: center;
@@ -360,7 +363,7 @@ footer a {
 }
 
 .play-button {
-  background: var(--text-secondary);
+  background: #f2c53d;
   color: var(--text-primary);
   border: none;
   border-radius: 50%;
@@ -374,4 +377,44 @@ footer a {
 
 .play-button:hover {
   background: #e2e2e2;
+}
+
+.divisor-imagen-picado {
+  z-index: 10000000 !important;
+  margin-top: -100px;
+}
+
+.divisor-imagen-picado img {
+  width: 100%;
+  margin: 0 auto;
+  rotate: -3deg;
+  /* sombra que sigue el contorno (usa el canal alfa de la imagen) */
+  filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
+  -webkit-filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
+}
+
+.divisor-imagen-picado2 {
+  z-index: -10000000 !important;
+  margin-top: -30px;
+}
+
+.divisor-imagen-picado2 img {
+  width: 100%;
+  margin: 0 auto;
+  /* sombra que sigue el contorno (usa el canal alfa de la imagen) */
+  filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
+  -webkit-filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
+}
+
+.flores {
+  z-index: -10000000 !important;
+  margin-top: -60px;
+}
+
+.flores img {
+  width: 100%;
+  margin: 0 auto;
+  /* sombra que sigue el contorno (usa el canal alfa de la imagen) */
+  filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
+  -webkit-filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
 }

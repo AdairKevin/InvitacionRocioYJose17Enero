@@ -5,36 +5,31 @@
   /* Gradiente de fondo */
   --bg-gradient: linear-gradient(
     131deg,
-    #76593a -3.63%,
-    #c8a76e 55.5%,
-    #76593a 107.94%
+    #d9597b -3.63%,
+    #82d9d9 55.5%,
+    #f2c53d 107.94%
   );
 
   /* Color de fondo */
-  --bg-content: #ffffff;
+  --bg-content: #f252aa;
 
   /* Fondo del Contenedor */
-  --bg-container: #0f1a0f;
+  --bg-container: #038c5a;
 
   /* fondo del contador  */
-  --bg-contador: #ffffff;
+  --bg-contador: #f2c53d;
 
   /* Colores de texto */
-  --text-primary: #000000;
+  --text-primary: #ffffff;
   --text-secondary: #ffffff;
-  --text-tertiary: #384236;
+  --text-tertiary: #038c5a;
 
   /* fondo de cards */
-  --bg-card-1: #2e3d29;
-  --bg-card-2: #687e64;
+  --bg-card-1: #d91438;
+  --bg-card-2: #038c5a;
 
   /* fondo de botones */
-  --bg-botones: linear-gradient(
-    131deg,
-    #2e3d29 -3.63%,
-    #687e64 55.5%,
-    #2e3d29 107.94%
-  );
+  --bg-botones: #f2c53d;
 
   --bg-footer: #242424;
 }

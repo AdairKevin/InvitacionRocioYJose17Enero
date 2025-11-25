@@ -13,7 +13,7 @@ body {
   color: var(--txt-body);
   font-size: 0.95rem;
   overflow-x: hidden;
-  background-color: rgba(241, 231, 215, 0.169);
+  background-color: var(--bg-content);
   box-sizing: border-box;
 }
 
@@ -47,11 +47,11 @@ ul {
 /* selection */
 
 footer::selection {
-  background: var(--bg-color-1);
+  background: var(--bg-footer);
   color: var(--txt-body);
 }
 
 footer a::selection {
-  background: var(--bg-color-1);
+  background: var(--bg-footer);
   color: var(--txt-body);
 }
