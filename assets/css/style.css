@@ -227,7 +227,22 @@
   color: var(--text-secondary);
   padding: 30px;
   text-align: center;
-  margin-top: -120px;
+  margin-top: -100px;
+}
+
+/* Móviles medianos – 375px */
+@media (max-width: 375px) {
+  .dresscode {
+    margin-top: -150px;
+  }
+}
+
+/* Móviles grandes – 425px */
+@media (max-width: 435px) {
+  .dresscode {
+    margin-top: -190px;
+    padding-top: 80px;
+  }
 }
 
 .dresscode h3 {
